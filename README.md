@@ -1,4 +1,4 @@
-# set-default-browser
+# WIP - set-default-browser
 
 > Set any browser as default browser
 
@@ -12,9 +12,11 @@ npm install --save set-default-browser
 
 ## Usage
 
+```sh
 var setDefaultBrowser = require('set-default-browser');
 
-setDefaultBrowser("chrome canary");
+setDefaultBrowser("chrome canary"); //return true or false
+```
 
 ## Licence
 
