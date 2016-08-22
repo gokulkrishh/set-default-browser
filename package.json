@@ -1,0 +1,35 @@
+{
+  "name": "set-default-browser",
+  "version": "1.0.0",
+  "description": "Set any browser as default browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokulkrishh/set-default-browser.git"
+  },
+  "keywords": [
+    "browser",
+    "default-browser",
+    "default",
+    "web",
+    "osx"
+  ],
+  "author": "gokulkrishh <krishnangokul9@gmail.com> (https://github.com/gokulkrishh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gokulkrishh/set-default-browser/issues"
+  },
+  "homepage": "https://github.com/gokulkrishh/set-default-browser#readme",
+  "dependencies": {
+    "exude": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
