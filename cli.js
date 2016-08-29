@@ -3,19 +3,16 @@
 var meow = require('meow');
 var setDefaultBrowser = require('./');
 
-var cli = meow({
-  help: [
-    'Usage',
-    ' set-default-browser <browser-name>',
-    '',
-    'Example',
-    ' set-default-browser chrome canary',
-    ''
-  ]
-});
+var cli = meow(`
+  Usage:
+    set-default-browser <browser-name>
+
+  Examples:
+    set-default-browser chrome
+`);
 
 if (cli.input.length === 0) {
-  console.error('Which browser ?');
+  console.error(cli.help);
   process.exit(1);
 }
 

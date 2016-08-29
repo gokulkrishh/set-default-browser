@@ -1,7 +1,7 @@
 {
   "name": "set-default-browser",
   "version": "1.0.0",
-  "description": "Set any browser as default browser",
+  "description": "Set any browser as your default browser",
   "files": "index.js",
   "scripts": {
     "test": "mocha"
