@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+    "set-default-browser": "./cli.js"
+  },
   "engines": {
     "node": ">=4"
   },
@@ -27,7 +30,6 @@
   },
   "homepage": "https://github.com/gokulkrishh/set-default-browser#readme",
   "dependencies": {
-    "exude": "^1.0.1",
     "meow": "^3.7.0"
   },
   "devDependencies": {
