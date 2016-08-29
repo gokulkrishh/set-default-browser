@@ -1,4 +1,6 @@
-# WIP - set-default-browser
+# set-default-browser    ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
+
+# WIP
 
 > Set any browser as default browser
 
