@@ -7,7 +7,7 @@ var cli = meow(`
   Usage:
     set-default-browser <browser-name>
 
-  Examples:
+  Example:
     set-default-browser chrome
 `);
 
@@ -16,4 +16,4 @@ if (cli.input.length === 0) {
   process.exit(1);
 }
 
-console.log(setDefaultBrowser(cli.input[0]));
+setDefaultBrowser(cli.input[0]);

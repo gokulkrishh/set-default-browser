@@ -1,31 +1,40 @@
 "use strict";
+
 const exec = require("child_process").exec;
+const os = require('os');
+const osType = os.type();
+const browserCmds = {
+  "Darwin": "open -a "
+};
+
+const browers = {
+  "chrome": "'Google Chrome' --args --make-default-browser",
+  "canary": "'Google Chrome Canary' --args --make-default-browser",
+  "firefox": "'Firefox' --args -setDefaultBrowser",
+  "safari": "'Safari' --args --make-default-browser",
+};
 
 function whichOS(browerName) {
-  if (process.env._system_name === "OSX") {
-    return "open -a " + capitalizeName(browerName);
+  if (osType === "Darwin" && browers[browerName]) {
+    return {
+      name: browerName,
+      cmd: browserCmds[osType] + browers[browerName]
+    };
   }
-}
 
-function capitalizeName(browerName) {
-  var browser = browerName.charAt(0).toUpperCase() + browerName.substr(1).toLowerCase() + '"';
-  if (browerName === "chrome") {
-    return '"Google ' + browser + " --args --make-default-browser";
-  }
-  else if (browerName === "safari") {
-    return '"' + browser + " --args --make-default-browser";
-  }
-  else if (browerName === "firefox") {
-    return '"' + browser + " --args -setDefaultBrowser";
-  }
+  return {};
 }
 
 module.exports = function(args) {
   var cmds = whichOS(args);
-  exec(cmds, (error, stdout, stderr) => {
+  if (cmds && !cmds.name) {
+    console.log("Browser not found 🙀");
+    return false;
+  }
+
+  exec(cmds.cmd, (error, stdout, stderr) => {
     if (error) {
       console.error(error);
-      return;
     }
   });
 };

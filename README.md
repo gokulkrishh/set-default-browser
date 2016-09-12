@@ -1,10 +1,8 @@
 # set-default-browser    ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
 
-# WIP
+> Set a browser as default browser
 
-> Set any browser as default browser
-
-*Supported platform OSX & Linux*
+*Supported platform OSX*
 
 ## Install
 
@@ -14,12 +12,28 @@ npm install --save set-default-browser
 
 ## Usage
 
+#### CLI
+
+```sh
+set-default-browser chrome
+```
+
+OR
+
 ```sh
 var setDefaultBrowser = require('set-default-browser');
 
-setDefaultBrowser("chrome canary"); //return true or false
+setDefaultBrowser("chrome");
 ```
 
-## Licence
+### Supported Browser
+
+- chrome
+- chrome canary
+- firefox
+- safari
+
+
+### Licence
 
 MIT © [Gokulakrishnan Kalaikovan](http://github.com/gokulkrishh)   

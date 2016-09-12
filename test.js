@@ -1,11 +1,12 @@
 var assert = require('assert');
 var setDefaultBrowser = require('./');
+var os = require('os');
+var osType = os.type();
 
 describe('OSX tests', function() {
-
-  describe('Detect OS', function() {
+  describe('Detect OS Type', function() {
     it('should return OSX', function() {
-      return process.env._system_name === "OSX";
+      return osType === "Drawin";
     });
   });
 
