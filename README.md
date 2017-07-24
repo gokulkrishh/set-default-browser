@@ -28,13 +28,13 @@ setDefaultBrowser("chrome");
 
 ### Supported Browser
 
-- chrome
-- chrome canary
-- firefox
-- firefoxDE
-- safari
+- Chrome
+- Chrome Canary
+- Firefox
+- Firefox Developer Edition
+- Safari
 
 
 ### Licence
 
-MIT © [Gokulakrishnan Kalaikovan](http://github.com/gokulkrishh)   
+MIT © [Gokulakrishnan Kalaikovan](http://github.com/gokulkrishh)
