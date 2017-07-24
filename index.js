@@ -11,6 +11,7 @@ const browers = {
   "chrome": "'Google Chrome' --args --make-default-browser",
   "canary": "'Google Chrome Canary' --args --make-default-browser",
   "firefox": "'Firefox' --args -setDefaultBrowser",
+  "firefoxDE": "'FirefoxDeveloperEdition' --args -setDefaultBrowser",
   "safari": "'Safari' --args --make-default-browser",
 };
 
