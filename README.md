@@ -31,6 +31,7 @@ setDefaultBrowser("chrome");
 - chrome
 - chrome canary
 - firefox
+- firefoxDE
 - safari
 
 
