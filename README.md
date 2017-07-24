@@ -1,6 +1,6 @@
 # set-default-browser    ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
 
-> Set a browser as default browser
+> Set a browser as default browser via command line
 
 *Supported platform OSX*
 
