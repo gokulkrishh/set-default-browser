@@ -1,7 +1,7 @@
 {
   "name": "set-default-browser",
-  "version": "1.0.1",
-  "description": "Set a browser as your default browser",
+  "version": "1.1.0",
+  "description": "Set any MacOS browser as your default browser",
   "files": "index.js",
   "scripts": {
     "test": "mocha"
