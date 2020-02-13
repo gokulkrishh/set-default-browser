@@ -1,13 +1,17 @@
-# set-default-browser    ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
+# set-default-browser ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
 
-> Set a browser as default browser via command line
+> Set any macOS browser as your default browser via command line
 
-*Supported platform OSX*
+_Supported platform OSX only_
 
 ## Install
 
 ```sh
 npm install --save set-default-browser
+
+or
+
+npx set-default-browser <browser-name>
 ```
 
 ## Usage
@@ -26,15 +30,16 @@ var setDefaultBrowser = require('set-default-browser');
 setDefaultBrowser("chrome");
 ```
 
-### Supported Browser
+### Supported browsers
 
-- Chrome
-- Chrome Canary
-- Firefox
-- Firefox Developer Edition
-- Safari
+- chrome
+- chromeCanary
+- firefox
+- firefoxDE
+- safari
+- edge
+- edgeCanary
 
-
-### Licence
+#### Licence
 
 MIT © [Gokulakrishnan Kalaikovan](http://github.com/gokulkrishh)
