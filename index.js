@@ -9,7 +9,7 @@ const browsers = {
   chrome: "'Google Chrome' --args --make-default-browser",
   chromeCanary: "'Google Chrome Canary' --args --make-default-browser",
   firefox: "'Firefox' --args -setDefaultBrowser",
-  firefoxDE: "'FirefoxDeveloperEdition' --args -setDefaultBrowser",
+  firefoxDE: "'Firefox Developer Edition' --args -setDefaultBrowser",
   safari: "'Safari' --args --make-default-browser",
   edge: "'Microsoft Edge' --args --make-default-browser",
   edgeCanary: "'Microsoft Edge Canary' --args --make-default-browser"
