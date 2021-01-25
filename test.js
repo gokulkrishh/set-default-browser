@@ -6,7 +6,7 @@ var setDefaultBrowser = require('./');
 describe('OSX tests', () => {
   describe('Detect OS Type', () => {
     it('should return OSX', () => {
-      return osType === 'Drawin';
+      return osType === 'Darwin';
     });
   });
 
