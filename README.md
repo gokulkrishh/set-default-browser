@@ -32,13 +32,13 @@ setDefaultBrowser("chrome");
 
 ### Supported browsers
 
-- chrome
-- chromeCanary
-- firefox
-- firefoxDE
-- safari
-- edge
-- edgeCanary
+- Google Chrome
+- Google Chrome Canary
+- Firefox
+- Firefox Developer Edition
+- Safari
+- Microsoft Edge
+- Microsoft Edge Canary
 
 #### Licence
 
