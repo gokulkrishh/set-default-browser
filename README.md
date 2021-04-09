@@ -1,5 +1,7 @@
 # set-default-browser ![](https://travis-ci.org/gokulkrishh/set-default-browser.svg?branch=master)
 
+<p align="center"><img src="./command-line.svg" alt="Command Link" width="20%" /></p>
+
 > Set any macOS browser as your default browser via command line
 
 _Supported platform OSX only_
